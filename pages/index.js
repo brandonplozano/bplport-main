@@ -31,14 +31,12 @@ export default function Home() {
             className="object-cover max-w-[275px] max-h-[275px] rounded-full shadow-2xl mt-[4rem] ml-auto mr-auto "
           />
           <span className='font-light ml-auto mr-auto '>
-            / bran-duhn /
+            / bran-den /
           </span>
-          <span className={`text-[1.75rem] font-light text-white text-justify`}>
-            Hi! My name is <span className='font-bold'>Brandon</span> and welcome to my personal website. 
-            Currently, I am an undergraduate at De La Salle-College of Saint Benilde 
-            taking up Bachelor of Science in Information Systems. I am a tech enthusiast in general 
-            but my primary interests are on ReactJS, NextJS, and other basic programming applications,
-            libraries, and dependencies.
+          <span className={`text-[1.25rem] font-light text-white text-justify`}>
+            Hi! My name is <span className='font-bold'>Brandon</span>. I am a graduate at De La Salle-College of Saint Benilde with the course, Bachelor of Science in Information Systems. I am a tech enthusiast in general but my primary interests are on Web Development.
+            
+            My current goal for now is to immerse myself in jobs and trainings and I will take as much learnings as I can from these experiences. I'm willing to learn a lot about how I can be a better worker in my field. Nevertheless, I'm also more than willing to learn and dive into other fields of work as these can expand my knowledge, skills, and experiences.
           </span>
           <div className='flex flex-row'>
             <div className='flex flex-row items-center mr-auto gap-12'>
@@ -69,7 +67,7 @@ export default function Home() {
             </div>
 
             <div className='flex flex-col ml-auto gap-5'>
-            <Link target="_blank" href="https://mytpasscsb.s3.ap-southeast-1.amazonaws.com/forbdon/Brandon-Lozano_RESUME.pdf">
+            <Link target="_blank" href="https://drive.google.com/drive/folders/1Q9IK_M3Uno1hnRaM5Hsi-192SKWu5qm0?usp=sharing">
                 <button className='p-2 w-[350px] h-[75px] 
                 rounded-full hover:opacity-[80%] shadow-xl
                 transition hover:-translate-y-1 duration-700 bg-white'

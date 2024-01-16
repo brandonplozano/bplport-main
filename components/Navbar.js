@@ -14,7 +14,6 @@ export default function Navbar() {
     const routes = {
         "/" : "Home",
         "/about" : "About Me",
-        "/internship" : "Internship",
         "/college" : "College",
         "/portfolio" : "Portfolio",
     }
