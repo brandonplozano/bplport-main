@@ -10,7 +10,7 @@ const opensans = Open_Sans({
 
 export default function Layout({children}) {
   return (
-    <div className={`min-h-screen flex flex-col w-full h-full ${opensans.className}`}>
+    <div className={`min-h-screen flex flex-col w-full overflow-x-hidden  h-full ${opensans.className}`}>
         <Navbar/>
         {children}
         <Footer/>

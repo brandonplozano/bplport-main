@@ -14,7 +14,6 @@ export default function Navbar() {
     const routes = {
         "/" : "Home",
         "/about" : "About Me",
-        "/college" : "College",
         "/portfolio" : "Portfolio",
     }
 
@@ -34,7 +33,7 @@ export default function Navbar() {
 
   return (
     <nav 
-    style={{ zIndex: 100 }}
+    style={{ zIndex: 1 }}
     className={`bg-[#262626] text-white uppercase flex fixed top-0 p-2 text-[3rem] py-[2rem] duration-300 ${scrolled ? "shadow-2xl" : "duration-700"}`}>
             {scrolled ? (
                 <>
