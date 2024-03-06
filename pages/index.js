@@ -69,7 +69,7 @@ export default function Home() {
             </div>
 
             <div className='flex flex-col ml-auto gap-5'>
-            <Link target="_blank" href="https://mytpasscsb.s3.ap-southeast-1.amazonaws.com/forbdon/Brandon-Lozano_RESUME.pdf">
+            <Link target="_blank" href="https://drive.google.com/drive/folders/1Q9IK_M3Uno1hnRaM5Hsi-192SKWu5qm0?usp=sharing">
                 <button className='p-2 w-[350px] h-[75px] 
                 rounded-full hover:opacity-[80%] shadow-xl
                 transition hover:-translate-y-1 duration-700 bg-white'
