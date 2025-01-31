@@ -13,7 +13,7 @@ export function First({ onClick }) {
   const imageArray = [one, two, three, four, five, six];
 
   return (
-    <div className="flex flex-col items-center justify-center mx-auto w-full max-w-[1200px] text-white gap-6 mt-[7rem] mb-[3rem]">
+    <div className="flex flex-col items-center justify-center mx-auto w-full max-w-[1200px] text-white gap-6 mt-[5rem] sm:mt-[5rem] md:mt-[7rem] lg:mt-[rem] mb-[3rem]">
       <div
         className={`p-6 bg-[#262626] text-white text-lg sm:text-xl md:text-2xl w-[75%] font-medium text-center rounded-lg shadow-xl ${styles.customGradient}`}
       >
