@@ -10,9 +10,9 @@ export function Fourth({ onClick }) {
 
   return (
     <div className="mb-[3rem]">
-      <div className="flex flex-col items-center justify-center mx-auto w-full max-w-[1200px] text-white gap-6 mt-[3rem] mt-[1.5rem]">
+      <div className="flex flex-col items-center justify-center mx-auto w-full max-w-[1200px] text-white gap-6 mt-[1.5rem]">
         <div
-          className={`p-6 bg-[#262626] text-white text-[2rem] w-[90%] font-medium text-center rounded-lg shadow-xl ${styles.customGradient}`}
+          className={`p-6 bg-[#262626] text-white text-lg sm:text-xl md:text-2xl w-[90%] font-medium text-center rounded-lg shadow-xl ${styles.customGradient}`}
         >
           [PROJECT] Negociantes: An Online Marketplace
         </div>
@@ -28,14 +28,14 @@ export function Fourth({ onClick }) {
             />
           ))}
         </div>
-        <div className="p-6 bg-[#262626] text-white text-[1.3rem] w-[90%] text-justify rounded-lg mb-[1.5rem]">
+        <div className="p-6 bg-[#262626] text-white text-lg sm:text-xl md:text-2xl w-[90%] text-justify rounded-lg mb-[1.5rem]">
           A place where small-scale sellers can easily showcase their products,
           allowing people who lost their jobs because of the pandemic to have
           some place to go and generate income.
         </div>
       </div>
-      <div className="p-6 bg-[#262626] w-fit text-white text-[1.3rem] text-justify rounded-lg mx-auto">
-        <div className="flex flex-row items-center justify-center gap-[5rem]">
+      <div className="p-6 bg-[#262626] w-fit text-white text-lg sm:text-xl md:text-2xl text-justify rounded-lg mx-auto">
+        <div className="flex flex-wrap items-center justify-center gap-4 text-center">
           <div>Technologies Used:</div>
           <div className="flex flex-col">
             <div>- Kotlin</div>

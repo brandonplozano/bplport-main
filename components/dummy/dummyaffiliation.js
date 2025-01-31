@@ -1,32 +1,30 @@
-import { FaLightbulb } from "react-icons/fa"
-import { FaBrain } from "react-icons/fa"
-import { FaList } from "react-icons/fa"
-import { FaRobot } from "react-icons/fa"
-import { FaCode } from "react-icons/fa"
-import { FaRedo } from "react-icons/fa"
-import { TbCircleXFilled } from "react-icons/tb"
-import aim from "../../public/images/aim.jpg"
-import Image from "next/image"
+import { FaLightbulb } from "react-icons/fa";
+import { FaBrain } from "react-icons/fa";
+import { FaList } from "react-icons/fa";
+import { FaRobot } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
+import { FaRedo } from "react-icons/fa";
+import { TbCircleXFilled } from "react-icons/tb";
+import psalogo from "../../public/images/psalogo.webp";
+import Image from "next/image";
 
 export default function dummyaffiliation() {
-  return (
-    [
-      {
-        "icon": <Image src={aim} width={100} height={100} alt="AIM picture"/>,
-        "title": "Association of Information Management",
-        "description": "The Association of Information Management (AIM) is the accredited academic organization of the Bachelor of Science in Information Systems program in De La Salle-College of Saint Benilde.",
-      },
-      {
-        "icon": <TbCircleXFilled size={100}/>,
-        "title": "N/A",
-        "description": "N/A"
-      },
-      {
-        "icon": <TbCircleXFilled size={100}/>,
-        "title": "N/A",
-        "description": "N/A",
-      }
-    ]
-  )
+  return [
+    {
+      icon: <Image src={psalogo} width={100} height={100} alt="PSA logo" />,
+      title: "Philippine Statistics Authority",
+      description:
+        "The Philippine Statistics Authority (PSA) is the central statistical authority of the Philippines. It is responsible for collecting, analyzing, and publishing statistical data related to the country's economy, population, agriculture, and other sectors. The PSA also manages civil registration services, such as birth certificates, marriage certificates, and death certificates.",
+    },
+    {
+      icon: <TbCircleXFilled size={100} />,
+      title: "N/A",
+      description: "N/A",
+    },
+    {
+      icon: <TbCircleXFilled size={100} />,
+      title: "N/A",
+      description: "N/A",
+    },
+  ];
 }
-

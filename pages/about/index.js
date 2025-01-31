@@ -18,7 +18,7 @@ export default function index() {
   return (
     <Layout>
       <div className="min-h-screen flex flex-col gap-[5rem] justify-center bg-[#262626]">
-        <div className="text-white text-[2rem] sm:text-[3rem] md:text-[4rem] uppercase flex items-center justify-center gap-3 font-bold mt-[1rem]">
+        <div className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase flex items-center justify-center gap-3 font-bold mt-[1rem]">
           Educational Attainment
         </div>
 
@@ -28,7 +28,7 @@ export default function index() {
       </div>
 
       <div className="min-h-screen flex flex-col gap-[1rem] bg-white">
-        <div className="text-[#262626] text-[2rem] sm:text-[3rem] md:text-[4rem] uppercase flex font-bold ml-auto mr-auto mt-[3rem]">
+        <div className="text-[#262626] text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase flex font-bold ml-auto mr-auto mt-[3rem]">
           Design Process
         </div>
         <div className="flex flex-wrap gap-[2rem] ml-auto mr-auto items-center justify-center w-full md:w-[1200px] text-white font-medium">
@@ -37,7 +37,7 @@ export default function index() {
       </div>
 
       <div className="min-h-screen flex flex-col gap-[1rem] bg-[#262626]">
-        <div className="text-white text-[3rem] uppercase flex font-bold ml-auto mr-auto mt-[3rem]">
+        <div className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase flex font-bold ml-auto mr-auto mt-[3rem]">
           Affiliation
         </div>
         <div className="flex flex-wrap gap-[2rem] ml-auto mr-auto items-center justify-center w-full md:w-[1200px] px-4 sm:px-6 md:px-8 text-[#262626] font-medium">

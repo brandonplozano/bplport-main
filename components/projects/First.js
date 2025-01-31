@@ -15,7 +15,7 @@ export function First({ onClick }) {
   return (
     <div className="flex flex-col items-center justify-center mx-auto w-full max-w-[1200px] text-white gap-6 mt-[7rem] mb-[3rem]">
       <div
-        className={`p-6 bg-[#262626] text-white text-[1.5rem] w-[75%] font-medium text-center rounded-lg shadow-xl ${styles.customGradient}`}
+        className={`p-6 bg-[#262626] text-white text-lg sm:text-xl md:text-2xl w-[75%] font-medium text-center rounded-lg shadow-xl ${styles.customGradient}`}
       >
         [CAPSTONE] MyT-Pass: Web Based Training Record and Document Management
         System for Manufacturing Businesses in the Philippines
@@ -31,7 +31,7 @@ export function First({ onClick }) {
           />
         ))}
       </div>
-      <div className="p-6 bg-[#262626] text-white text-[1.3rem] w-[90%] text-justify rounded-lg">
+      <div className="p-6 bg-[#262626] text-white text-lg sm:text-xl md:text-2xl w-[90%] text-justify rounded-lg">
         MyT-Pass is a Web-Based Training Record and Document Management System
         designed for the Manufacturing Industry's Employees, Owners, and Human
         Resources. The Capstone's Main Objective is to create an Online platform
@@ -43,8 +43,8 @@ export function First({ onClick }) {
         Expiring Training Records and Certificates. (3) Providing Analytical
         Reports to Monitor the Scheduled Training Records.
       </div>
-      <div className="p-6 bg-[#262626] text-white text-[1.3rem] text-justify rounded-lg">
-        <div className="flex flex-row items-center justify-center gap-[5rem]">
+      <div className="p-6 bg-[#262626] text-lg sm:text-xl md:text-2xl text-justify rounded-lg">
+        <div className="flex flex-col items-center justify-center gap-4 text-center">
           <div>Technologies Used:</div>
           <div className="flex flex-col">
             <div>- JavaScript</div>
